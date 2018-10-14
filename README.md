@@ -2,10 +2,11 @@
 
 docker run -ti -v /demo:/shared -e WEB_CONF=/shared/etc/local.conf -p 80:80 ngx
 
- 
+--------------
  \demo
 ├───etc
 └───www
+--------------
 
 --------------
 # local.conf
