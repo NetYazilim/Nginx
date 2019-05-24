@@ -1,6 +1,7 @@
 # Nginx
-
+```
 docker run -ti -v /demo:/shared -e WEB_CONF=/shared/etc/local.conf -p 80:80 netyazilim/nginx
+```
 ```
  \demo
 ├───etc
